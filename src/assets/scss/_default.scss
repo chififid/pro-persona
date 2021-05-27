@@ -1,0 +1,29 @@
+input::-moz-focus-inner,
+select::-moz-focus-inner {
+    border: 0 !important;
+}
+
+input:active,
+input:focus,
+button:active,
+button:focus,
+select:active,
+select:focus {
+    outline: none !important;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+input,
+option,
+select {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.mdi:before {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+}

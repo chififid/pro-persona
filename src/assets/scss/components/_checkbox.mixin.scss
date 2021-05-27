@@ -1,0 +1,46 @@
+@import "../settings/colors";
+
+@mixin checkbox() {
+    position: relative;
+    width: 18px;
+    height: 22px;
+    margin: 0 10.5px;
+    cursor: pointer;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 0;
+        background: $white;
+        border: 2px solid $grey-2;
+        box-shadow: inset 0px 5px 7px rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+        transition: background 0.1s;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 0;
+        background: url("~@/assets/img/check_mark_icon.svg") no-repeat center;
+        border: 2px solid $blue;
+        box-shadow: inset 0px 5px 7px rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+        opacity: 0;
+        transition: 0.1s;
+    }
+
+    &:checked::after {
+        opacity: 1;
+    }
+
+    &:checked::before {
+        background: $blue;
+    }
+}

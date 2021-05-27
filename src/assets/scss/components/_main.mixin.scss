@@ -1,0 +1,21 @@
+@import "../settings/colors";
+
+@mixin main() {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: $white;
+    border-right: 1px solid $grey;
+    border-left: 1px solid $grey;
+    padding: 21px 40px 0;
+    flex-grow: 3;
+    overflow-y: auto;
+    cursor: auto !important;
+}
+
+@mixin mainTitle() {
+    color: $purple-black;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
