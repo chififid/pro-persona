@@ -51,6 +51,84 @@ const testData = {
       },
     },
   },
+  13: {
+    name: "Internet",
+    folders: {
+      14: {
+        name: "Freigegebene Dokumente",
+        folders: {
+          15: {
+            name: "Verträge",
+          },
+        },
+      },
+    },
+  },
+  16: {
+    name: "Internet",
+    folders: {
+      17: {
+        name: "Freigegebene Dokumente",
+        folders: {
+          18: {
+            name: "Verträge",
+          },
+        },
+      },
+    },
+  },
+  19: {
+    name: "Internet",
+    folders: {
+    20: {
+        name: "Freigegebene Dokumente",
+        folders: {
+          21: {
+            name: "Verträge",
+          },
+        },
+      },
+    },
+  },
+  22: {
+    name: "Internet",
+    folders: {
+      23: {
+        name: "Freigegebene Dokumente",
+        folders: {
+          24: {
+            name: "Verträge",
+          },
+        },
+      },
+    },
+  },
+  25: {
+    name: "Internet",
+    folders: {
+      26: {
+        name: "Freigegebene Dokumente",
+        folders: {
+          27: {
+            name: "Verträge",
+          },
+        },
+      },
+    },
+  },
+  28: {
+    name: "Internet",
+    folders: {
+      29: {
+        name: "Freigegebene Dokumente",
+        folders: {
+          30: {
+            name: "Verträge",
+          },
+        },
+      },
+    },
+  },
 };
 
 export function getDirectory() {

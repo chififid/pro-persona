@@ -101,7 +101,7 @@ export default {
   &__explorer {
     border-radius: 7px 7px 0 0;
     background: $max-white;
-    padding: 29px 40px 0 5px;
+    padding: 29px 40px 29px 5px;
     flex-grow: 3;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
   }
